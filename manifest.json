@@ -1,8 +1,8 @@
 {
     "manifest_version": 3,
-    "name": "Double Space Bar Period",
+    "name": "Double Spacebar Period",
     "version": "1.0",
-    "description": "Enable double-space-bar period functionality in Google Docs",
+    "description": "Enable double-spacebar period functionality in Google Docs",
     "permissions": ["activeTab", "scripting"],
     "action": {
       "default_popup": "popup.html",
