@@ -13,10 +13,11 @@
       "128": "images/icon128.png"
     },
     "content_scripts": [
-      {
-        "matches": ["https://docs.google.com/document/*"],
-        "js": ["content.js"]
-      }
-    ]
+        {
+          "matches": ["https://docs.google.com/document/*"],
+          "js": ["content.js"]
+        }
+      ]
+      
   }
   

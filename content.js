@@ -1,3 +1,6 @@
+console.log('Double Spacebar Period extension content script loaded.');
+
+
 document.addEventListener('keydown', function (event) {
     if (event.code === 'Space' && event.target.tagName.toLowerCase() === 'textarea') {
       let textarea = event.target;
