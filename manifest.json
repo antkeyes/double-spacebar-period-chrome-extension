@@ -5,19 +5,12 @@
     "description": "Enable double-spacebar period functionality in Google Docs",
     "permissions": ["activeTab", "scripting"],
     "action": {
-      "default_popup": "popup.html"
-    },
-    "default_icon": {
-      "16": "images/icon16.png",
-      "48": "images/icon48.png",
-      "128": "images/icon128.png"
-    },
-    "content_scripts": [
-        {
-          "matches": ["https://docs.google.com/document/*"],
-          "js": ["content.js"]
-        }
-      ]
-      
+      "default_popup": "popup.html",
+      "default_icon": {
+        "16": "images/icon16.png",
+        "48": "images/icon48.png",
+        "128": "images/icon128.png"
+      }
+    }
   }
   
